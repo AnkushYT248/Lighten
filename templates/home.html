@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lighten-Luminous Threads: Your Journey into Lighten Cloth Fashion</title>
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/product/">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+<link href="/static/css/bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" href="/static/css/home-min.css">
+<link rel="stylesheet" href="/static/css/bootstrap.min.css">
+</head>
+<body>
+  <h1>Welcome, {{ username }}!</h1>
+  <p>Your email: {{ email }}</p>
+  <a href="{% url 'logout' %}" class="btn btn-primary">Logout</a>
+
+  <br>
+  <!--{% for cloth in cloths %}
+    <div>
+        <img src="{{ cloth.image.url }}" alt="{{ cloth.name }}">
+        <h2>{{ cloth.name }}</h2>
+        <p>{{ cloth.description }}</p>
+        <p>Price: ${{ cloth.price }}</p>
+    </div>
+{% endfor %}-->
+
+</body>
+</html>
