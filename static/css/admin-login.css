@@ -1,0 +1,26 @@
+.col-heading h1{
+    color: black ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.col-break-text h3{
+    font-size: 20px;
+    font-family: fantasy;
+}
+.form-input {
+    display: grid;
+    margin-top: 15px;
+}
+.form-input label {
+    font-family: fantasy;
+    line-height: 30px;
+    margin-left: 5px;
+}
+#username,#password {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.checkbox span {
+    font-family: fantasy;
+}
+.admin-login-btn {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

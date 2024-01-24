@@ -1,0 +1,67 @@
+#branding h1, #branding h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+html.touchevents .sidebar-link, html.touchevents .sidebar-link:visited, html.touchevents .sidebar-link:hover {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sidebar-title {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.dashboard-item-header-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.dashboard-item-content ul.inline li .nowrap {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.dashboard-item-content {
+    font-family: fantasy;
+}
+
+.select2-container--jet .select2-selection {
+    font-family: monospace;
+}
+.select2-container--jet .select2-results>.select2-results__options {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.dashboard .breadcrumbs {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.changeform-tabs-item.selected a, .changeform-tabs-item.selected a:hover, .changeform-tabs-item.selected a:visited {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.changeform-tabs-item a, .changeform-tabs-item a:hover, .changeform-tabs-item a:visited,.aligned label ,.form-row img, .form-row input{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.submit-row input.default {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.breadcrumbs,.addlink,input {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+table thead th .text a {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+td {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+th a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.changeform-navigation.initialized {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button, .button:visited, .button:hover, input[type="submit"], input[type="submit"]:visited, input[type="submit"]:hover, input[type="button"], input[type="button"]:visited, input[type="button"]:hover, .object-tools a, .object-tools a:visited, .object-tools a:hover {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.paginator .label {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
