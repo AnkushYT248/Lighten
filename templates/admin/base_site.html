@@ -1,0 +1,40 @@
+{% extends "admin/base.html" %}
+{% load static i18n %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lighten Admin Panel</title>
+</head>
+<body>
+
+    {% block title %}{{ title }} | {{ site_title|default:_('') }}{% endblock %}
+
+    {% block branding %}
+        <h1 id="site-name">
+            <span class="icon-jet"></span> {% trans  "Lighten Admin Panel" %}
+        </h1>
+        {{ block.super }}
+    {% endblock %}
+
+    {% block extrastyle %}
+        {{ block.super }}
+        <link rel="stylesheet" type="text/css" href="{% static "core/css/branding.css" %}" />
+        <link rel="stylesheet" type="text/css" href="{% static "core/css/icons/style.css" %}" />
+        <link rel="stylesheet" href="/static/css/dashboard.css">
+    {% endblock %}
+
+    {% block nav-global %}
+        <!-- Nav Links -->
+    {% endblock %}
+
+
+    {% block footer %}
+        {{ block.super }}
+    {% endblock %}
+
+</body>
+</html>
